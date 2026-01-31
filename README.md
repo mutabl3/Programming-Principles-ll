@@ -6,7 +6,7 @@
 ## **📈Task progress:**
 | Status       | Name          | 
 |--------------|---------------|
-| Completed ✅ | Practice 1(https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice1)   |
+| Completed ✅ | [Practice 1](https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice1)   |
 | In Progress 🕐| Practice 2    |
 | Not Started ❌| Practice 3    | 
 | Not Started ❌| Practice 4    | 
