@@ -7,8 +7,7 @@ print(text[0:6])
 
 name = "Amir"
 language = "Python"
-message = f"{name} learns {language}"
-print(message)                
+print(f"{name} learns {language}")                
 
 sentence = "i love coding"
 print(sentence.capitalize())  
