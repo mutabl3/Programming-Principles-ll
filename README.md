@@ -9,7 +9,7 @@
 | Completed ✅ | [Practice 1](https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice1)   |
 | Completed ✅| [Practice 2](https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice2)    |
 | Completed ✅| [Practice 3](https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice3)    | 
-| Not Started ❌| Practice 4    | 
+| Completed ✅| [Practice 4](https://github.com/mutabl3/Programming-Principles-ll/tree/main/Practice4)    | 
 | Not Started ❌| Practice 5    | 
 | Not Started ❌| Practice 6    | 
 | Not Started ❌| Practice 7    | 
