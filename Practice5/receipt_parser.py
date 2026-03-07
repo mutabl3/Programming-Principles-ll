@@ -8,7 +8,7 @@ with open(file_path, 'r', encoding='utf-8') as f:
 
 prices = re.findall(r'Стоимость\s*(\d{1,3}(?: \d{3})*,\d{2})', text)
 prices = [float(p.replace(' ', '').replace(',', '.')) for p in prices]
-print("Prices", prices)
+print("Prices:", prices)
 
 products = re.findall(r'^\d+\.\s*(.+?)\s+\d+,\d+\s*x', text, re.MULTILINE)
 print(f"\nProducts names:")
@@ -25,7 +25,14 @@ if datetime_match:
     print(f"Time: {datetime_match.group(2)}")
 
 payment = re.search(r'(Банковская карта|Наличные)', text)
-print(f"Payment method: {payment.group(1)}")
+print(f"\nPayment method: {payment.group(1)}")
+
+lines = re.split(r'\n', text)
+print(f"\nTotal number of lines in the receipt: {len(lines)}")
+print(f"First 3 lines: {lines[:3]}")
+
+masked_bin = re.sub(r'БИН \d{12}', 'БИН [HIDDEN]', text)
+print(f"\nID: {masked_bin}")
 
 with open('receipt_output.json', 'w', encoding='utf-8') as f:
     json.dump(text, f, ensure_ascii=False, indent=4)
