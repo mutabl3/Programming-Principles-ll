@@ -1,0 +1,42 @@
+[
+  {
+    "name": "a",
+    "score": 666,
+    "distance": 5565
+  },
+  {
+    "name": "PLAYER",
+    "score": 418,
+    "distance": 4084
+  },
+  {
+    "name": "mut",
+    "score": 302,
+    "distance": 2720
+  },
+  {
+    "name": "\r\u044b",
+    "score": 199,
+    "distance": 1893
+  },
+  {
+    "name": "mutable",
+    "score": 180,
+    "distance": 1805
+  },
+  {
+    "name": "h",
+    "score": 169,
+    "distance": 1398
+  },
+  {
+    "name": "mutable",
+    "score": 157,
+    "distance": 1575
+  },
+  {
+    "name": "mutable",
+    "score": 111,
+    "distance": 1010
+  }
+]

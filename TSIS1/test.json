@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Alice Smith",
+        "email": "alice@example.com",
+        "birthday": "1990-05-15",
+        "group": "Family",
+        "phones": ["7701111111:mobile"]
+    },
+    {
+        "name": "Bob Johnson",
+        "email": "bob@example.com",
+        "birthday": "1985-08-22",
+        "group": "Work",
+        "phones": ["7702222222:work", "7702222223:mobile"]
+    },
+    {
+        "name": "Charlie Brown",
+        "email": "charlie@example.com",
+        "birthday": "1995-12-10",
+        "group": "Friend",
+        "phones": ["7703333333:mobile"]
+    },
+    {
+        "name": "Diana Prince",
+        "email": "diana@example.com",
+        "birthday": "1988-03-25",
+        "group": "Other",
+        "phones": ["7704444444:work"]
+    },
+    {
+        "name": "Eve Adams",
+        "email": "eve@example.com",
+        "birthday": "1992-07-30",
+        "group": "Family",
+        "phones": ["7705555555:mobile", "7705555556:home"]
+    }
+]
